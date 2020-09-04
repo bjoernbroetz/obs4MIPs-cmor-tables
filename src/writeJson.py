@@ -1115,8 +1115,8 @@ for key in source_id['source_id'].keys():
         vals.sort()
     # Validate source_label format
     val = source_id['source_id'][key]['source_label']
-    if not entryCheck(key):
-        print 'Invalid source_label format for entry:',key,'- aborting'
+    if not entryCheck(val):
+        print 'Invalid source_label format for entry:',val,'- aborting'
         sys.exit()
     # Validate source_type
     val = source_id['source_id'][key]['source_type']
