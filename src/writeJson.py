@@ -945,7 +945,7 @@ source_id['source_id'][key]['source_version_number'] = 'v2.1'
 source_id['source_id'][key]['institution_id'] = 'UReading'
 source_id['source_id'][key]['region'] = ['global_ocean']
 source_id['source_id'][key]['source_type'] = 'satellite_retrieval'
-source_id['source_id'][key]['source_label'] = 'ESA CCI SST'
+source_id['source_id'][key]['source_label'] = 'ESA-CCI-SST'
 source_id['source_id'][key]['source_variables'] = ['tos']
 source_id['source_id'][key]['source_id'] = key
 
